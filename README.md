@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio Pessoal
 
-## Getting Started
+Este projeto é um portfólio pessoal desenvolvido com React e Vite, com o objetivo de apresentar minha trajetória acadêmica, conhecimentos técnicos, projetos e experiências.
 
-First, run the development server:
+## Tecnologias utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- ESLint
+
+## Funcionalidades
+
+- Apresentação pessoal.
+- Seção sobre mim.
+- Exibição de projetos desenvolvidos.
+- Apresentação de experiências.
+- Links para GitHub, LinkedIn e contato por e-mail.
+- Layout responsivo para diferentes dispositivos.
+
+## Estrutura do projeto
+
+```text
+portifolio/
+├── public/
+│   └── imagens e arquivos públicos
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Inicio.jsx
+│   │   ├── Sobre.jsx
+│   │   ├── Projetos.jsx
+│   │   ├── Experiencias.jsx
+│   │   └── Contato.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── vite.config.js
+├── eslint.config.mjs
+└── package.json
+```
+
+## Como executar o projeto
+
+Primeiro, clone o repositório:
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd portifolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse o endereço indicado no terminal, normalmente:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:5173
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Outros comandos
 
-## Learn More
+Gerar a versão de produção:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visualizar a versão de produção:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run preview
+```
 
-## Deploy on Vercel
+Verificar problemas no código:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run lint
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Publicação
+
+**Link do portfólio publicado:** COLOQUE_AQUI_O_LINK_DO_SEU_SITE
+
+## Autor
+
+Davi Lavalle Carneiro
+
+Estudante de Engenharia de Software na PUC Minas.
